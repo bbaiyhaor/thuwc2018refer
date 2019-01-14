@@ -1,0 +1,67 @@
+{
+  "args": {
+    "a": 998244353,
+    "n": 250000
+  },
+  "compile": {
+    "c": "-O2 -lm",
+    "cpp": "-O2 -lm",
+    "pas": "-O2"
+  },
+  "data": [
+    {
+      "cases": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ]
+    }
+  ],
+  "folder": "problem",
+  "memory limit": "512 MB",
+  "name": "magic",
+  "packed": false,
+  "partial score": false,
+  "samples": [
+    {
+      "cases": [
+        1,
+        2
+      ]
+    }
+  ],
+  "time limit": 3.0,
+  "title": {
+    "zh-cn": "\u5927\u9b54\u6cd5\u5e08"
+  },
+  "type": "program",
+  "users": {
+    "cy": {
+      "brute.cpp": "cy//brute.cpp",
+      "segtree.cpp": "cy//segtree.cpp"
+    },
+    "lx": {
+      "force/force.cpp": "lx/force/force.cpp",
+      "std": "lx/std/std.cpp",
+      "val.cpp": "lx//val.cpp"
+    }
+  },
+  "version": 0
+}

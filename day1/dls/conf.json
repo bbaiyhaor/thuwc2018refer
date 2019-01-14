@@ -1,0 +1,119 @@
+
+{
+    "args" :
+    {
+        "M" : 10000000,
+        "P" : 998244353,
+        "T" : 100
+    },
+    "compile" :
+    {
+        "c" : "-O2 -lm",
+        "cpp" : "-O2 -lm",
+        "pas" : "-O2"
+    },
+    "data" : [
+        {
+            "args" : [30, 10, 1000, 0],
+            "cases" : [1, 2],
+            "score" : 5
+        },
+        {
+            "args" : [100, 10, 1000, 3, 5000000],
+            "cases" : [3],
+            "score" : 5
+        },
+        {
+            "args" : [100, 10, 1000, 0],
+            "cases" : [4],
+            "score" : 5
+        },
+        {
+            "args" : [1000, 10, 1000, 2],
+            "cases" : [5, 6],
+            "score" : 5
+        },
+        {
+            "args" : [1000, 10, 1000, 3, 2000000],
+            "cases" : [7, 8],
+            "score" : 5
+        },
+        {
+            "args" : [1000, 10, 5000, 0],
+            "cases" : [9, 10],
+            "score" : 5
+        },
+        {
+            "args" : [1000000, 10, 10000000, 1],
+            "cases" : [11, 12],
+            "score" : 5
+        },
+        {
+            "args" : [1000000, 10, 10000000, 0],
+            "cases" : [13, 14],
+            "score" : 5
+        },
+        {
+            "args" : [10000000, 100, 10000000, 0],
+            "cases" : [15],
+            "score" : 5
+        },
+        {
+            "args" : [10000000, 100, 20000000, 0],
+            "cases" : [16],
+            "score" : 5
+        },
+        {
+            "args" : [10000000, 100, 30000000, 0],
+            "cases" : [17],
+            "score" : 5
+        },
+        {
+            "args" : [10000000, 100, 40000000, 0],
+            "cases" : [18],
+            "score" : 5
+        },
+        {
+            "args" : [10000000, 100, 50000000, 0],
+            "cases" : [19],
+            "score" : 5
+        },
+        {
+            "args" : [10000000, 100, 60000000, 0],
+            "cases" : [20],
+            "score" : 5
+        }
+    ],
+    "folder" : "problem",
+    "memory limit" : "512 MB",
+    "name" : "dls",
+    "packed" : false,
+    "partial score" : false,
+    "samples" : [
+        {
+            "cases" : [1, 2]
+        }
+    ],
+    "time limit" : 5.0,
+    "title" :
+    {
+        "zh-cn" : "\u675c\u8001\u5e08"
+    },
+    "type" : "program",
+    "users" :
+    {
+        "trinkle" :
+        {
+            "good_dfs" : "trinkle//bf2.cpp",
+            "low_dfs" : "trinkle//bf.cpp",
+            "n^3" : "trinkle//bruteforce.cpp",
+            "pianfen" : "trinkle//pianfen.cpp",
+            "std" : "trinkle//std.cpp"
+        },
+        "lx" :
+        {
+            "std" : "lx//std.cpp"
+        }
+    },
+    "version" : 0
+}

@@ -1,0 +1,6 @@
+## 脚本/Users/baiyunren/.pyenv/versions/3.6.3/lib/python3.6/site-packages/tuack/test.py/，工程路径/Users/baiyunren/gitpath/THUSCH2017，参数[]，开始于2018-12-19 22:31:52.628544。
+## 测试题目`magic`，编译失败代码名称`val.cpp`
+val.cpp:1:10: fatal error: 'testlib.h' file not found
+#include "testlib.h"
+         ^~~~~~~~~~~
+1 error generated.

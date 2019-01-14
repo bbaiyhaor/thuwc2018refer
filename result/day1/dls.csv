@@ -1,0 +1,19 @@
+dls,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,summary,sample1,2,pre
+lx,5.00,5.00,5.00,5.00,5.00,5.00,5.00,5.00,5.00,5.00,0.00,0.00,5.00,5.00,0.00,0.00,0.00,0.00,0.00,0.00,60.00,5.00,0.00
+std,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,5.560,5.390,1.100,1.020,6.670,13.600,0.000,0.000,0.000,0.000,2.120,0.560,6.490
+,ok,ok,ok,ok,ok,ok,ok,ok,ok,ok,ok(but time out),ok(but time out),ok,ok,wa(and time out),wa(and time out),Time out.,Time out.,Time out.,Time out.,,ok,ok(but time out)
+trinkle,5.00,5.00,5.00,0.00,5.00,5.00,5.00,5.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,35.00,0.00,0.00
+good_dfs,0.100,0.100,4.210,0.000,0.000,0.000,3.030,2.150,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,9.590,0.000,0.000
+,ok,ok,ok,Time out.,ok,ok,ok,ok,Time out.,Time out.,Runtime error 139.,Runtime error 139.,Runtime error 139.,Runtime error 139.,Runtime error 139.,Runtime error 139.,Runtime error 139.,Runtime error 139.,Runtime error 139.,Runtime error 139.,,Runtime error 139.,Runtime error 139.
+trinkle,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00
+low_dfs,0.000,0.000,0.000,0.000,5.800,5.580,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000
+,Time out.,Time out.,Time out.,Time out.,ok(but time out),ok(but time out),Time out.,Time out.,Time out.,Time out.,Runtime error 139.,Runtime error 139.,Runtime error 139.,Runtime error 139.,Runtime error 139.,Runtime error 139.,Runtime error 139.,Runtime error 139.,Runtime error 139.,Runtime error 139.,,Runtime error 139.,Runtime error 139.
+trinkle,5.00,5.00,5.00,5.00,5.00,5.00,5.00,5.00,5.00,5.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,50.00,0.00,0.00
+n^3,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000
+,ok,ok,ok,ok,ok,ok,ok,ok,ok,ok,Runtime error 138.,Runtime error 138.,Runtime error 138.,Runtime error 138.,Runtime error 138.,Runtime error 138.,Runtime error 138.,Runtime error 138.,Runtime error 138.,Runtime error 138.,,Runtime error 138.,Runtime error 138.
+trinkle,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,5.00,5.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,10.00,5.00,5.00
+pianfen,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.030,0.030,0.020,0.020,1.300,1.250,1.250,1.240,1.260,1.290,0.060,0.010,0.110
+,wa,wa,wa,wa,wa,wa,wa,wa,wa,wa,ok,ok,wa,wa,wa,wa,wa,wa,wa,wa,,ok,ok
+trinkle,5.00,5.00,5.00,5.00,5.00,5.00,5.00,5.00,5.00,5.00,5.00,5.00,5.00,5.00,5.00,5.00,5.00,5.00,5.00,5.00,100.00,5.00,5.00
+std,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.020,0.020,0.020,0.020,0.280,0.290,0.320,0.340,0.330,0.400,2.040,0.010,0.100
+,ok,ok,ok,ok,ok,ok,ok,ok,ok,ok,ok,ok,ok,ok,ok,ok,ok,ok,ok,ok,,ok,ok

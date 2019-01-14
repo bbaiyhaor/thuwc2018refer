@@ -1,0 +1,23 @@
+[
+	["测试点编号","$n,m$的限制","$c_{i,j}$的限制","部分分说明"],
+	["1", "$n = 1, 1\\leq m \\leq 233$", "$c_{i,j} = -1$或$1\\leq c_{i,j} \\leq n \\times m$", "若输出的最少块数均正确，但最小中位数存在错误，选手可以获得该测试点$80\\%$的分数。"],
+	["2", "$1\\leq n\\times m \\le 20$", null,null],
+	["3", "$n = 2, m = 15$", null,null],
+	["4", null, null,null],
+	["5", "$1\\leq n\\times m \\leq 30$", null,null],
+	["6", null, null,null],
+	["7", "$1 \\leq n\\times m \\leq 50$", "$c_{i,j} = -1$或$1\\leq c_{i,j} \\leq 8$",null],
+	["8", null, null,null],
+	["9", null, null,null],
+	["10", "$ 1 \\leq n\\times m \\leq 233$",null, null],
+	["11", null, null, "若输出的最少块数均正确，但最小中位数存在错误，选手可以获得该测试点$60\\%$的分数。"],
+	["12", null, null, null],
+	["13", null, "$c_{i,j} = -1$或$1\\leq c_{i,j} \\leq 14$", null],
+	["14", null, null, null],
+	["15", null, null, null],
+	["16", null, "$c_{i,j} = -1$或$1\\leq c_{i,j} \\leq n \\times m$", null],
+	["17", null, null, null],
+	["18", null, null, null],
+	["19", null, null, null],
+	["20", null, null, null]
+]

@@ -1,0 +1,47 @@
+args: {K: 10, T: 10}
+data:
+- args: [2]
+  cases: [1]
+  score: 5
+- args: [2]
+  cases: [2]
+  score: 15
+- args: [3]
+  cases: [3]
+  score: 11
+- args: [3]
+  cases: [4]
+  score: 14
+- args: [3]
+  cases: [5]
+  score: 16
+- args: [4]
+  cases: [6]
+  score: 7
+- args: [4]
+  cases: [7]
+  score: 9
+- args: [10]
+  cases: [8]
+  score: 23
+folder: problem
+name: tangent
+output limit: 4096 KB
+partial score: true
+pre: []
+samples:
+- cases: [0]
+title: {zh-cn: 宇宙广播}
+type: output
+users:
+  trinkle:
+    std_db:
+      expected: []
+      path: trinkle//std_db
+    std_longdb:
+      expected: []
+      path: trinkle//std_longdb
+    try:
+      expected: []
+      path: trinkle//try
+version: 2

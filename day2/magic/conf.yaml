@@ -1,0 +1,33 @@
+args: {a: 998244353, n: 250000}
+compile: {c: -O2 -lm, cpp: -O2 -lm, pas: -O2}
+data:
+- cases: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]
+folder: problem
+memory limit: 512 MB
+name: magic
+partial score: false
+pre: []
+samples:
+- cases: [1, 2]
+time limit: 3.0
+title: {zh-cn: 大魔法师}
+type: program
+users:
+  cy:
+    brute.cpp:
+      expected: []
+      path: cy//brute.cpp
+    segtree.cpp:
+      expected: []
+      path: cy//segtree.cpp
+  lx:
+    force/force.cpp:
+      expected: []
+      path: lx/force/force.cpp
+    std:
+      expected: []
+      path: lx/std/std.cpp
+    val.cpp:
+      expected: []
+      path: lx//val.cpp
+version: 2

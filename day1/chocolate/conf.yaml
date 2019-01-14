@@ -1,0 +1,30 @@
+args: {n: 1000}
+compile: {c: -O2 -lm, cpp: -O2 -lm, pas: -O2}
+data:
+- cases: [chocolate1, chocolate2, chocolate3, chocolate4, chocolate5, chocolate6,
+    chocolate7, chocolate8, chocolate9, chocolate10, chocolate11, chocolate12, chocolate13,
+    chocolate14, chocolate15, chocolate16, chocolate17, chocolate18, chocolate19,
+    chocolate20]
+folder: problem
+memory limit: 512 MB
+name: chocolate
+partial score: true
+pre: []
+samples:
+- cases: [1]
+time limit: 5.0
+title: {zh-cn: 巧克力}
+type: program
+users:
+  liuminghua:
+    chocolate.cpp:
+      expected: []
+      path: liuminghua//chocolate.cpp
+  zrz:
+    part/chocolate.cpp:
+      expected: []
+      path: zrz/part/chocolate.cpp
+    zero/chocolate.cpp:
+      expected: []
+      path: zrz/zero/chocolate.cpp
+version: 2

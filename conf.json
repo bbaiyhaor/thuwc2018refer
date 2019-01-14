@@ -1,0 +1,18 @@
+{
+  "folder": "contest",
+  "name": "THUSCH2017",
+  "short title": {
+    "zh-cn": "THUSC 2017"
+  },
+  "subdir": [
+    "day1",
+    "day2"
+  ],
+  "subtitle": {
+    "zh-cn": "夏季体验营"
+  },
+  "title": {
+    "zh-cn": "2017 清华大学优秀高中生信息学"
+  },
+  "version": 0
+}

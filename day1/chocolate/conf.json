@@ -1,0 +1,62 @@
+{
+  "args": {
+    "n": 1000
+  },
+  "compile": {
+    "c": "-O2 -lm",
+    "cpp": "-O2 -lm",
+    "pas": "-O2"
+  },
+  "data": [
+    {
+      "cases": [
+        "chocolate1",
+        "chocolate2",
+        "chocolate3",
+        "chocolate4",
+        "chocolate5",
+        "chocolate6",
+        "chocolate7",
+        "chocolate8",
+        "chocolate9",
+        "chocolate10",
+        "chocolate11",
+        "chocolate12",
+        "chocolate13",
+        "chocolate14",
+        "chocolate15",
+        "chocolate16",
+        "chocolate17",
+        "chocolate18",
+        "chocolate19",
+        "chocolate20"
+      ]
+    }
+  ],
+  "folder": "problem",
+  "memory limit": "512 MB",
+  "name": "chocolate",
+  "packed": false,
+  "partial score": true,
+  "samples": [
+    {
+      "cases": [
+        1
+      ]
+    }
+  ],
+  "time limit": 5.0,
+  "title": {
+    "zh-cn": "\u5de7\u514b\u529b"
+  },
+  "type": "program",
+  "users": {
+    "liuminghua": {
+      "chocolate.cpp": "liuminghua//chocolate.cpp"
+    },
+    "zrz": {
+      "part/chocolate.cpp": "zrz/part/chocolate.cpp",
+      "zero/chocolate.cpp": "zrz/zero/chocolate.cpp"
+    }
+  }
+}

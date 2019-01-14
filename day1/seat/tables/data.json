@@ -1,0 +1,26 @@
+[
+	[" $测试点$ ", " $n$ "," $m$ "]
+	{%- set last = None -%}
+	{% for datum in prob['data'] %}
+	,[
+		" ${%- for i in datum['cases'] -%}
+			{{- i -}}
+			{%- if not loop.last -%}
+				,
+			{%- endif -%}
+		{%- endfor -%}$ ",
+
+		{%- if datum.args.n -%}
+			" $1 \\le n \\le {{- datum.args.n -}}$ "
+		{%- else -%}
+			null
+		{%- endif -%},
+
+		{%- if datum.args.m -%}
+			" $1 \\le m \\le {{- datum.args.m -}}$ "
+		{%- else -%}
+			null
+		{%- endif -%}
+	]
+	{% endfor %}
+]

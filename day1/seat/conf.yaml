@@ -1,0 +1,43 @@
+args: {m: 10, n: 300}
+compile: {c: -O2 -lm, cpp: -O2 -lm, pas: -O2}
+data:
+- args: {m: 10, n: 2}
+  cases: [1, 2]
+- args: {n: 40}
+  cases: [3, 4, 5, 6, 7, 8]
+- args: {n: 100}
+  cases: [9, 10, 11, 12, 13, 14]
+- args: {n: 300}
+  cases: [15, 16, 17, 18, 19, 20]
+folder: problem
+memory limit: 512 MB
+name: seat
+partial score: false
+pre: []
+samples:
+- cases: [1, 2, 3, 4]
+time limit: 5.0
+title: {zh-cn: 换桌}
+type: program
+users:
+  cy:
+    100pts:
+      expected: []
+      path: cy/100pts.cpp
+    40pts:
+      expected: []
+      path: cy/40pts.cpp
+    70pts:
+      expected: []
+      path: cy/70pts.cpp
+    70pts_fast:
+      expected: []
+      path: cy/70pts_fast.cpp
+  lx:
+    km:
+      expected: []
+      path: lx/std/std.cpp
+    naive_flow:
+      expected: []
+      path: lx/70pts/flow.cpp
+version: 2

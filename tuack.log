@@ -1,0 +1,81 @@
+[I]base.py:init:708:脚本/Users/baiyunren/.pyenv/versions/3.6.3/lib/python3.6/site-packages/tuack/test.py，工程路径/Users/baiyunren/gitpath/THUSCH2017，参数[]，开始于2018-12-19 22:10:47.107894。
+[I]base.py:copy:570:`./day1/chocolate/data/chk/chk.cpp`编译成功。
+[E]base.py:copy:566:`./day2/tangent/data/chk/chk.cpp`编译失败。
+[I]test.py:test_problem:302:尝试评测题目`day1/chocolate`。
+[I]test.py:test_problem:323:共1组样例，0个预测试点，20个测试点，不是打包评测。
+[I]test.py:test_problem:369:测试程序 chocolate:liuminghua:chocolate.cpp
+[I]test.py:test_problem:369:测试程序 chocolate:zrz:part/chocolate.cpp
+[I]test.py:test_problem:369:测试程序 chocolate:zrz:zero/chocolate.cpp
+[I]test.py:test_problem:302:尝试评测题目`day1/dls`。
+[I]test.py:test_problem:323:共2组样例，0个预测试点，20个测试点，不是打包评测。
+[I]test.py:test_problem:369:测试程序 dls:lx:std
+[I]test.py:test_problem:369:测试程序 dls:trinkle:good_dfs
+[I]test.py:test_problem:369:测试程序 dls:trinkle:low_dfs
+[I]test.py:test_problem:369:测试程序 dls:trinkle:n^3
+[I]test.py:test_problem:369:测试程序 dls:trinkle:pianfen
+[I]test.py:test_problem:369:测试程序 dls:trinkle:std
+[I]test.py:test_problem:302:尝试评测题目`day1/seat`。
+[I]test.py:test_problem:323:共4组样例，0个预测试点，20个测试点，不是打包评测。
+[I]test.py:test_problem:369:测试程序 seat:cy:100pts
+[I]test.py:test_problem:369:测试程序 seat:cy:40pts
+[I]test.py:test_problem:369:测试程序 seat:cy:70pts
+[I]test.py:test_problem:369:测试程序 seat:cy:70pts_fast
+[I]test.py:test_problem:369:测试程序 seat:lx:km
+[I]test.py:test_problem:369:测试程序 seat:lx:naive_flow
+[I]test.py:test_problem:302:尝试评测题目`day2/magic`。
+[I]test.py:test_problem:323:共2组样例，0个预测试点，20个测试点，不是打包评测。
+[I]test.py:test_problem:369:测试程序 magic:cy:brute.cpp
+[I]test.py:test_problem:369:测试程序 magic:cy:segtree.cpp
+[I]test.py:test_problem:369:测试程序 magic:lx:force/force.cpp
+[I]test.py:test_problem:369:测试程序 magic:lx:std
+[I]test.py:test_problem:369:测试程序 magic:lx:val.cpp
+[I]test.py:compile:179:`val.cpp`编译失败，详情见`compile.log`.
+[I]test.py:test_problem:302:尝试评测题目`day2/farben`。
+[I]test.py:test_problem:323:共2组样例，0个预测试点，20个测试点，不是打包评测。
+[I]test.py:test_problem:369:测试程序 farben:wwwwodddd:c.cpp
+[I]test.py:test_problem:302:尝试评测题目`day2/tangent`。
+[I]test.py:test_problem:323:共1组样例，0个预测试点，8个测试点，是打包评测（共8个包）。
+[I]test.py:test_problem:369:测试程序 tangent:trinkle:std_db
+[E]test.py:test_progs:425:Traceback (most recent call last):
+  File "/Users/baiyunren/.pyenv/versions/3.6.3/lib/python3.6/site-packages/tuack/test.py", line 422, in test_progs
+    if not test_problem(prob):
+  File "/Users/baiyunren/.pyenv/versions/3.6.3/lib/python3.6/site-packages/tuack/test.py", line 370, in test_problem
+    scores, times, reports = test(prob, path.split('/')[-1].split('.')[0])
+  File "/Users/baiyunren/.pyenv/versions/3.6.3/lib/python3.6/site-packages/tuack/test.py", line 236, in test
+    shutil.copy(pjoin('bin', prob.route), pjoin('tmp', 'chk' + base.elf_suffix))
+  File "/Users/baiyunren/.pyenv/versions/3.6.3/lib/python3.6/shutil.py", line 241, in copy
+    copyfile(src, dst, follow_symlinks=follow_symlinks)
+  File "/Users/baiyunren/.pyenv/versions/3.6.3/lib/python3.6/shutil.py", line 120, in copyfile
+    with open(src, 'rb') as fsrc:
+FileNotFoundError: [Errno 2] No such file or directory: 'bin/day2/tangent'
+
+[I]base.py:init:708:脚本/Users/baiyunren/.pyenv/versions/3.6.3/lib/python3.6/site-packages/tuack/ren.py，工程路径/Users/baiyunren/gitpath/THUSCH2017，参数['tuoi']，开始于2018-12-20 01:09:41.079603。
+[I]ren.py:ren_prob_md_j:281:渲染题目题面 tuoi day1/chocolate
+[I]ren.py:table:115:渲染表格`./day1/chocolate/tables/data.json`，参数{'width': [2, 3, 3, 3]}
+[I]ren.py:ren_prob_md_j:281:渲染题目题面 tuoi day1/dls
+[I]ren.py:table:115:渲染表格`./day1/dls/tables/data.py`，参数{}
+[I]ren.py:ren_prob_md_j:281:渲染题目题面 tuoi day1/seat
+[I]ren.py:table:115:渲染表格`./day1/seat/tables/data.json`，参数{}
+[I]ren.py:ren_day_pdf:480:渲染比赛日题面 tuoi day1
+[I]ren.py:ren_day_pdf:498:开始使用xelatex渲染题面。
+[I]ren.py:ren_prob_md_j:281:渲染题目题面 tuoi day2/magic
+[I]ren.py:table:115:渲染表格`./day2/magic/tables/data.json`，参数{}
+[I]ren.py:ren_prob_md_j:281:渲染题目题面 tuoi day2/farben
+[I]ren.py:table:115:渲染表格`./day2/farben/tables/data.py`，参数{}
+[I]ren.py:ren_prob_md_j:281:渲染题目题面 tuoi day2/tangent
+[I]ren.py:table:115:渲染表格`./day2/tangent/tables/data.py`，参数{}
+[I]ren.py:ren_day_pdf:480:渲染比赛日题面 tuoi day2
+[I]ren.py:ren_day_pdf:498:开始使用xelatex渲染题面。
+[I]base.py:init:708:脚本/Users/baiyunren/.pyenv/versions/3.6.3/lib/python3.6/site-packages/tuack/ren.py，工程路径/Users/baiyunren/gitpath/THUSCH2017，参数['tuoj']，开始于2018-12-20 01:12:00.317891。
+[I]ren.py:ren_prob_md_j:281:渲染题目题面 tuoj day1/chocolate
+[I]ren.py:table:115:渲染表格`./day1/chocolate/tables/data.json`，参数{'width': [2, 3, 3, 3]}
+[I]ren.py:ren_prob_md_j:281:渲染题目题面 tuoj day1/dls
+[I]ren.py:table:115:渲染表格`./day1/dls/tables/data.py`，参数{}
+[I]ren.py:ren_prob_md_j:281:渲染题目题面 tuoj day1/seat
+[I]ren.py:table:115:渲染表格`./day1/seat/tables/data.json`，参数{}
+[I]ren.py:ren_prob_md_j:281:渲染题目题面 tuoj day2/magic
+[I]ren.py:table:115:渲染表格`./day2/magic/tables/data.json`，参数{}
+[I]ren.py:ren_prob_md_j:281:渲染题目题面 tuoj day2/farben
+[I]ren.py:table:115:渲染表格`./day2/farben/tables/data.py`，参数{}
+[I]ren.py:ren_prob_md_j:281:渲染题目题面 tuoj day2/tangent
+[I]ren.py:table:115:渲染表格`./day2/tangent/tables/data.py`，参数{}
